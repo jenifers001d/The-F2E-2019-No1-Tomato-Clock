@@ -3,7 +3,6 @@ import "./pages.css";
 import styled from "styled-components";
 //import MaterialIcon from "material-icons-react";
 import MaterialIcon from "@material/react-material-icon";
-import InputMission from "../inputMission/index.jsx";
 import Todolist from "./todolist/index.jsx";
 import CloseLogoBar from "./closeLogoBar/index.jsx";
 
@@ -55,8 +54,6 @@ function Ringtones() {
 }
 export default class extends React.Component {
   render() {
-    console.log(this.props.match);
-    console.log(this.props.children);
     return (
       <Wrapper>
         <Container>

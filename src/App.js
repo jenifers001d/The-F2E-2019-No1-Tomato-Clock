@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 //import Wrapper from "./component/outer/wrapper";
 import Home from "./component/home/index.jsx";

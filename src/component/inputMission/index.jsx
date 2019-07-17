@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { addMission } from "../redux/actions.jsx";
+import store from "../redux/store.jsx";
 
 const InputWrapper = styled.div`
   position: relative;
@@ -34,11 +36,27 @@ const InputAddBtn = styled.span`
 `;
 
 export default class extends React.Component {
+  textRef = React.createRef();
+  hClick = () => {
+    const text = this.textRef.current.value;
+    const newMission = {
+      content: text,
+      isDone: false,
+      id: Date.now(),
+      selected: false,
+    };
+    store.dispatch(addMission(newMission));
+    this.textRef.current.value = "";
+  };
   render() {
     return (
       <InputWrapper>
-        <InputText type="text" placeholder="ADD A NEW MISSION..." />
-        <InputAddBtn>+</InputAddBtn>
+        <InputText
+          ref={this.textRef}
+          type="text"
+          placeholder="ADD A NEW MISSION..."
+        />
+        <InputAddBtn onClick={this.hClick}>+</InputAddBtn>
       </InputWrapper>
     );
   }
