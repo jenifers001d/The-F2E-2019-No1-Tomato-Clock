@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/The-F2E-2019-No1-Tomato-Clock.git/static/css/main.c3ca22e5.chunk.css",
-    "main.js": "/The-F2E-2019-No1-Tomato-Clock.git/static/js/main.f887de35.chunk.js",
-    "main.js.map": "/The-F2E-2019-No1-Tomato-Clock.git/static/js/main.f887de35.chunk.js.map",
-    "runtime~main.js": "/The-F2E-2019-No1-Tomato-Clock.git/static/js/runtime~main.c4f08e31.js",
-    "runtime~main.js.map": "/The-F2E-2019-No1-Tomato-Clock.git/static/js/runtime~main.c4f08e31.js.map",
-    "static/css/2.1f156bdb.chunk.css": "/The-F2E-2019-No1-Tomato-Clock.git/static/css/2.1f156bdb.chunk.css",
-    "static/js/2.6207652a.chunk.js": "/The-F2E-2019-No1-Tomato-Clock.git/static/js/2.6207652a.chunk.js",
-    "static/js/2.6207652a.chunk.js.map": "/The-F2E-2019-No1-Tomato-Clock.git/static/js/2.6207652a.chunk.js.map",
-    "index.html": "/The-F2E-2019-No1-Tomato-Clock.git/index.html",
-    "precache-manifest.3e5098d45b11dc2361504c8b9ac95971.js": "/The-F2E-2019-No1-Tomato-Clock.git/precache-manifest.3e5098d45b11dc2361504c8b9ac95971.js",
-    "service-worker.js": "/The-F2E-2019-No1-Tomato-Clock.git/service-worker.js",
-    "static/css/2.1f156bdb.chunk.css.map": "/The-F2E-2019-No1-Tomato-Clock.git/static/css/2.1f156bdb.chunk.css.map",
-    "static/css/main.c3ca22e5.chunk.css.map": "/The-F2E-2019-No1-Tomato-Clock.git/static/css/main.c3ca22e5.chunk.css.map"
+    "main.css": "./static/css/main.c3ca22e5.chunk.css",
+    "main.js": "./static/js/main.f44c96ba.chunk.js",
+    "main.js.map": "./static/js/main.f44c96ba.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.1f156bdb.chunk.css": "./static/css/2.1f156bdb.chunk.css",
+    "static/js/2.b0d4d479.chunk.js": "./static/js/2.b0d4d479.chunk.js",
+    "static/js/2.b0d4d479.chunk.js.map": "./static/js/2.b0d4d479.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.9074af116bddfd97b74ec785231262f3.js": "./precache-manifest.9074af116bddfd97b74ec785231262f3.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.1f156bdb.chunk.css.map": "./static/css/2.1f156bdb.chunk.css.map",
+    "static/css/main.c3ca22e5.chunk.css.map": "./static/css/main.c3ca22e5.chunk.css.map"
   }
 }
