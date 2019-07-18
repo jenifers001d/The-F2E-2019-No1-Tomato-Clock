@@ -125,7 +125,7 @@ export default class extends React.Component {
                   <ListContainer key={todo.id}>
                     <MaterialIcon icon="radio_button_unchecked" />
                     <List>{todo.content}</List>
-                    <StyledMaterialIcon icon="play_circle_outline" />
+                    <StyledMaterialIcon id={index} icon="play_circle_outline" />
                   </ListContainer>
                 );
               }

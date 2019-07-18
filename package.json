@@ -1,7 +1,7 @@
 {
   "name": "tomato-timer",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://jenifers001d.github.io/The-F2E-2019-No1-Tomato-Clock",
   "private": true,
   "dependencies": {
     "@material/react-material-icon": "^0.14.1",
